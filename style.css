@@ -71,9 +71,6 @@ a {
 }
 
 /* ========== Main Section Styles ========== */
-.main {
-    padding-top: 6rem; /* Adds space below the fixed navbar */
-}
 
 .main-content {
     display: flex;
