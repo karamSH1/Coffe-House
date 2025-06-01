@@ -303,7 +303,7 @@ a {
 /* Menu Section Title */
 .menu-title {
     color: white;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
     font-weight: bold;
     position: relative;
@@ -537,3 +537,79 @@ html {
     padding: 1.5rem 1rem;
   }
 }
+
+/* Contact Section */
+.contact-section {
+    background-color: rgb(251, 244, 245) ;
+    color: rgb(9, 1, 2) ;
+    font-size: 25px;
+}
+.contact-content {
+    display: flex;
+}
+.contact-section .contact-title {
+    color: rgb(9, 1, 2);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 100px 500px 100px;
+}
+.contact-section .contact-title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: orange;
+    margin: 8px auto 0; 
+    border-radius: 2px;
+}
+.contact-section .address .contactText {
+    justify-content: space-between;
+    margin: 25px 70px 0 100px;
+}
+.contact-section .address {
+    margin-right: 100px;
+    margin-bottom: 170px;
+}
+.input-field .input {
+    padding-bottom: 25px;
+    border-radius: 7%;
+    border: 1px solid rgb(218, 213, 214);
+    margin-bottom: 10px;
+    width: 100%; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.input-field .message {
+    padding-bottom: 25px;
+    border-radius: 7%;
+    border: 1px solid rgb(218, 213, 214);
+    margin-bottom: 10px;
+    width: 100%; 
+    padding: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.contactButtom {
+    background-color: rgb(37, 37, 37);
+}
+ input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+ }
+ .input-field .message label {
+    text-align: left;
+ }
+.contactButtom-content-text {
+    display: flex;
+    color: white;
+    padding: 20px 20px 20px 100px;
+}
+
+
+ @media screen and (max-width: 768px) {
+    
+ }
